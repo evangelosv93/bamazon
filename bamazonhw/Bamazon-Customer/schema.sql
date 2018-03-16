@@ -1,5 +1,5 @@
 CREATE DATABASE bamazon;
-USE bamazonDB;
+USE bamazon;
 CREATE TABLE products (
   id INT NOT NULL AUTO_INCREMENT,
   product_name VARCHAR(100) NULL,
@@ -9,15 +9,15 @@ CREATE TABLE products (
   PRIMARY KEY (id)
 );
 INSERT INTO products (product_name,department_name, price, stock_quantity)
-VALUES ("Jordan 11", "sneakers", 100.00, 200),
-        ("bally loafer","shoes",200.00, 250),
-        ("Geox","recreation", 750.00,75, 356),
-        ("Curry 6","sneakers", 150.00, 286),
-        ("used Iphone 6","electronics", 150.00,456),
-        ("Canoe","recreation", 150.00,10),
-        ("speaker","electronics", 150.00,276),
-        ("Canoe","recreation", 150.00,500),
-        ("dining chair","furniture", 150.00,400),
+VALUES ("rolex", "watch", 100.00, 200),
+        ("chia pet","ercreation",200.00, 250),
+        ("soccer ball","recreation", 750.00,75, 356),
+        ("omega","watch", 150.00, 286),
+        ("Iphone 60","electronics", 50.00,456),
+        ("Canoe","recreation", 250.00,10),
+        ("bannana","produce", 50.00,276),
+        ("potato","produce", 150.00,500),
+        ("dining chair","furniture", 250.00,400),
         ("Iphone","electronics", 150.00,120),
-        ("coffee table","furniture", 150.00,100),
-        ("bunny","toys", 150.00,1),
+        ("pokemon cards","recreation", 150.00,100),
+        ("barbie","toys", 150.00,1),
